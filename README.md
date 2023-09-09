@@ -6,7 +6,7 @@ class Library:
     def displayAvailableBooks(self):
         print(f"\n{len(self.books)} AVAILABLE BOOKS ARE: ")
         for book in self.books:
-            print(" ♦-- " + book)
+            print(" ---> " + book)
         print("\n")
 
     def borrowBook(self, name, bookname):
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     student = Student()
     track = []
 
-    print("\t\t\t\t\t\t\t♦♦♦♦♦♦♦ WELCOME TO THE DELHI LIBRARY ♦♦♦♦♦♦♦\n")
+    print("\t\t\t\t\t\t\t----- WELCOME TO THE DELHI LIBRARY ------\n")
     print("""CHOOSE WHAT YOU WANT TO DO:-\n1. Listing all books\n2. Borrow books\n3. Return books\n4. Donate books\n5. Track books\n6. exit the library\n""")
 
     while (True):
